@@ -1,0 +1,30 @@
+# Course-provided content is copyrighted: keep it on this machine only.
+# The folders stay in the repo (via .gitkeep) so the structure is visible.
+**/transcripts/*
+!**/transcripts/.gitkeep
+**/materials/*
+!**/materials/.gitkeep
+
+# Personal study space: everything except its README stays local.
+_personal/*
+!_personal/README.md
+
+# AI assistant instructions: local only.
+AGENTS.md
+
+# Obsidian: share only the portable vault settings.
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/templates.json
+.trash/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
